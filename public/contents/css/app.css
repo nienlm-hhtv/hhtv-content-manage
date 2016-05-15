@@ -1,0 +1,10 @@
+
+
+.main-table{
+	border: 3px;
+    border-color: gray;
+    border-radius: 5px;
+}
+th, td{
+	padding: 3px;
+}

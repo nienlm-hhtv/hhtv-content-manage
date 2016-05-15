@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Minimum Setup</title>
+    <link rel="stylesheet" href="contents/css/bootstrap.min.css">
+    <link rel="stylesheet" href="contents/css/calendar.css">
+    <link rel="stylesheet" type="text/css" href="contents/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="contents/css/app.css">
+    <script src="scripts/jquery.min.js"></script>
+    <script type='text/javascript' src='https://cdn.firebase.com/js/client/2.4.1/firebase.js'></script>
+    <script src="scripts/auth.js"></script>
+    <script src="scripts/cal.js"></script>
+</head>
+<body>
+    <script type="text/javascript">
+        auth();
+    </script>
+    <br>
+    <div id="cal"></div>
+</body>
+<script>
+    $(document).ready(function() {
+        
+        setCal(true);
+    });
+</script>
+
+</html>
